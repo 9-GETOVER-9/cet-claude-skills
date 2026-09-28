@@ -1,4 +1,55 @@
-# 四六级 AI 教练 V1
+# 四六级 AI 教练 · Claude Code Skills
+
+使用分模块 AI 教练训练四六级，并把学习记录留在本地、汇总到可视化仪表盘。
+
+**Claude Code · CET-4 / CET-6 · React Dashboard · 本地数据**
+
+## 一句话介绍
+
+一套面向四六级备考的 Claude Code Skills 工具包，覆盖诊断、写作、听力、阅读、翻译和词汇训练。
+
+## 快速安装
+
+```bash
+git clone https://github.com/9-GETOVER-9/cet-claude-skills.git
+cd cet-claude-skills
+```
+
+Windows 运行 `install.bat`；Mac / Linux 运行 `bash install.sh`。安装完成后输入 `/cet` 进入总入口。
+
+## 功能矩阵
+
+| 模块 | 作用 |
+|---|---|
+| `/cet` | 摸底与模块路由 |
+| `/cet-diagnose` | 分数诊断与计划 |
+| `/cet-writing` | 写作训练与批改 |
+| `/cet-listening` | 听力错因分析 |
+| `/cet-reading` | 阅读题型训练 |
+| `/cet-translation` | 翻译反馈 |
+| `/cet-vocab` | 词汇复习 |
+| `/cet-dashboard` | 学习趋势展示 |
+
+## 核心工作流
+
+```text
+输入 /cet → 选择训练模块 → 保存本地记录 → 打开 Dashboard → 复盘
+```
+
+## 项目结构
+
+| 路径 | 用途 |
+|---|---|
+| `cet*/` | 各 Skill 及 Dashboard |
+| `SCHEMA.md` | 学习数据规范 |
+| `install.bat` / `install.sh` | 安装脚本 |
+| `【先看这里】.md` | 五分钟入门说明 |
+
+## 使用边界
+
+V1 以 Windows 默认路径为主；跨平台使用前请阅读下方数据目录说明。
+
+## 详细说明
 
 一套面向大学英语四级（CET-4）和六级（CET-6）备考的本地 Claude Code Skills 工具包。它把 AI 学习教练与本地可视化仪表盘组合在一起：写作、听力、阅读、翻译、词汇和诊断记录保存在用户自己的电脑中，再由浏览器仪表盘汇总趋势。
 
